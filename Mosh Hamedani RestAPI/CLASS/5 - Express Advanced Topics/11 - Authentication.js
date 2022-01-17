@@ -1,0 +1,1 @@
+/*Authentication is outside the scope of express because express is a light weight framework and it doesnt have an opinion about authentication so later in the course we will see how to secure our api endpoints*/

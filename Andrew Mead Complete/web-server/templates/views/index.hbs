@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home</title>
+    <!--webstorm says it cannot resolve this but it is okay since we already set our file path to "../public" inside app.js so we do not need to append it to the link again bcos if we do, webstorm will see the file but it wont be accessible in the browser-->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!--favicon for our title page-->
+    <link rel="icon" href="/img/weather.png" />
+</head>
+<body>
+<div class="main-content">
+<!--Rendering our header partial-->
+{{>header}}
+    <p>Use this site to get your weather!</p>
+    <!--Our form where user type address and click button to get forecast-->
+    <form>
+        <input type="text" placeholder="Location">
+        <button>Search</button>
+    </form>
+    <p id="message-1"></p>
+    <p id="message-2"></p>
+</div>
+<!--Rendering our footer partial-->
+{{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+</html>

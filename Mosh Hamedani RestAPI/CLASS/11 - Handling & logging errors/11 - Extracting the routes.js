@@ -1,0 +1,1 @@
+/*Our "app.js" file has grown so big to become a monster, we need to refactor this codes and move some to other files like the "Routes" in other to have a cleaner code. So we start by extracting our routes*/

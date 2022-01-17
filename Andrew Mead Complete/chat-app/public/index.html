@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chat App</title>
+    <link rel="icon" href="img/favicon.png" />
+    <!--<link rel="stylesheet" href="css/styles.min.css" />-->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="centered-form">
+      <!--actual form content-->
+      <div class="centered-form__box">
+        <h1>Join</h1>
+        <!--form action redirect user to d chat page when the form is submitted-->
+        <form action="chat.html">
+          <label>Display name</label>
+          <input
+            type="text"
+            name="username"
+            placeholder="Display name"
+            required
+            maxlength="15"
+          />
+          <!-- The second value will be selected initially -->
+          <label>Room</label>
+          <select name="room">
+            <option value="Agriculture">Agriculture</option>
+            <option value="Technology" selected>Technology</option>
+            <option value="Business">Business</option>
+            <option value="Career Development">Career Development</option>
+            <option value="Resume/CV">Resume/CV</option>
+          </select>
+
+          <!--  <label>Room e.g. Lagos, Rivers, Abuja</label>
+          <input type="text" name="room" placeholder="Lagos" required />-->
+          <button>Join</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

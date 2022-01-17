@@ -1,0 +1,3 @@
+Node uses a Non-blocking async where a single thread can be used to serve multiple request unlike frameworks like ASP.NET that uses blocking sync where you need different threads to serve different request. This advantage makes node js highly scalable for apps that involves a-lot of input and output intensive apps i.e data intensive and real time apps.
+
+Node should not be used for CPU-intensive apps like Video encoding or image manipulation service because we have a-lot of calculations to be done by the cpu in such apps and few operations that touches the file system or the network.

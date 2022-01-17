@@ -1,0 +1,1 @@
+/*Now we have enough mongoose knowledge to start building the http endpoints for the task app. We will go over a brief overview of how we will be structuring our http endpoint for the task API and what exactly makes up an http request.*/

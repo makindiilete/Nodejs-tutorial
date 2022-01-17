@@ -1,0 +1,8 @@
+NODEJS
+
+Redis
+Cron Job
+Nodejs GCP (Google Cloud)
+Nodejs Queue
+
+React Redis

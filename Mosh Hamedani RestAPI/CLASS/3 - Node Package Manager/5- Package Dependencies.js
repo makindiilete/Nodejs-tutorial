@@ -1,0 +1,4 @@
+/*We installed a new package "mongoose" which we use for our database, after the installation, if we inspect the "node_modules" folder, we discover we also have many packages which we didnt install. These are packages that mongoose depends on and they get installed with mongoose and every package behaves the same.
+ * */
+
+//WHAT HAPPENS WHEN WE HAVE A PACKAGE INSTALLED BEFORE THEN WE INSTALL ANOTHER PACKAGE WHICH HAPPENS TO HAVE A DEPENDENCIES AMONG OUR ALREADY INSTALLED PACKAGES BUT THE VERSION IT DEPENDS ON IS OF HIGHER VERSION> : This is a scenario we get for example "Async" is one of the package "mongoose" depends on, but assuming we already have "async" version 1 installed before we installed mongoose but let us assume "mongoose" needs version 2, in this case, the version that mongoose needs to work will be installed locally inside the mongoose folder and not directly under the "node_modules" in other to avoid conflict.

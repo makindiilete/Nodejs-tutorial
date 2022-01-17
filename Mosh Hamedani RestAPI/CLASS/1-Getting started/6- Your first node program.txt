@@ -1,0 +1,13 @@
+1- Open the command prompt.
+2- Run the code "mkdir first-app" to create a new folder with the name "first-app".
+3- Run the code "cd first-app" to enter the directory.
+4- Go to your code editor and inside the new directory, create a new file "app.js".
+5- Inside the New file, add the following code :
+
+function sayHello(name) {
+    console.log('Hello ' + name)
+}
+sayHello("Michaelz");
+
+6- Go back to command prompt and run the code "node app.js" to run the program.
+

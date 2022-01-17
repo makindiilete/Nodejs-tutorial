@@ -1,0 +1,26 @@
+NODE : -
+1- A runtime environment for executing JS code outside of a browser. It is not a programming language like C# and it is not a framework for building web applications like ASP.NET so it should not be compared with a framework or programming language...Every browser comes with runtime environment to execute JS code, Mozilla runtime environment is "Spider Monkey", Chrome uses "V8", Node is just another type of runtime environment that can do much more than a browser runtime environment is able to do.
+
+2- We often use Node to build back-end services "also called Application Programming Interface (API)".
+
+ADVANTAGES (According to Paypal app rebuilt with node)
+A- Great for prototyping and agile development.
+
+B- Superfast and highly scalable.
+1- Built twice as fast with fewer people.
+2- 33% fewer lines of code.
+3- 40% fewer files.
+4- 2 times request/sec
+5- 35% faster response time.
+
+C- Javascript everywhere.
+D- Cleaner and more consistent codebase (JS on the front-end & backend).
+E- Large ecosystem of open-source libs :- For any feature or building block. you want to add to your application, there is always a free open source library you can use.
+
+//MEAN STACK
+/*
+MONGODB : - This is a no sql database we use to build the database for our app.
+EXPRESS : - This is the framework we use to build backend for our apps in node just like ASP.NET.
+ANGULAR : - This is the framework we use to build the front-end for our app
+NODE : - IS A RUNTIME ENVIRONMENT TO RUN JS ON THE SERVER
+*/
